@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './css/mainBody.css';
+import '../css/mainBody.css';
 import { getAuth } from '../../services/spotifyAPI'
 
 class MainBody extends Component {
