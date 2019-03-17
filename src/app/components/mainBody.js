@@ -7,7 +7,7 @@ class MainBody extends Component {
   componentDidMount(){
     getAuth()
     .then(()=>{
-
+      console.log('in then of getAuth')
     })
   }
 
