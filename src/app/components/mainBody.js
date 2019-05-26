@@ -6,7 +6,7 @@ class MainBody extends Component {
   
   componentDidMount(){
     getAuth()
-    .then(()=>{
+    .then(() => {
       console.log('in then of getAuth')
     })
   }
@@ -14,7 +14,7 @@ class MainBody extends Component {
   render() {
     return (
       <div className="mainBody">
-        
+        MAIN
       </div>
     );
   }
